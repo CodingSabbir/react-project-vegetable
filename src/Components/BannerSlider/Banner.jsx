@@ -21,8 +21,8 @@ return (
                 <p className=' md:text-[44px] font-mono font-semibold'>Eat Organic & <br /> <span
                 className='underline text-purple-700'>Healthy Food</span></p>
                 <button
-                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '>More
-                    About Me</button>
+                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '>Learn
+                   More</button>
             </div>
 
 
@@ -43,8 +43,8 @@ return (
                 <p className=' md:text-[44px] font-mono font-semibold'>Eat Organic & <br /> <span
                 className='underline text-purple-700'>Healthy Food</span></p>
                 <button
-                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '>More
-                    About Me</button>
+                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '> Learn More
+                    </button>
             </div>
 
 
@@ -65,8 +65,8 @@ return (
                 <p className=' md:text-[44px] font-mono font-semibold'>Eat Organic & <br /> <span
                 className='underline text-purple-700'>Healthy Food</span></p>
                 <button
-                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '>More
-                    About Me</button>
+                    className='font-mono text-[12px] md:text-[16px] font-semibold mt-2 md:mt-5 bg-[#82CD47] text-black px-2 md:px-4 py-1 md:py-2 rounded-md '> Learn More
+                    </button>
             </div>
 
 

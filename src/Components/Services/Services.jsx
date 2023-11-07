@@ -1,18 +1,23 @@
-import React from 'react';
-import product1 from '../img/product-6.png'
-import product2 from '../img/product-2.png'
-import product3 from '../img/product-3.png'
+import React, { useEffect, useState } from 'react';
 import Service from '../ServiceChild/Service';
+import Heading from '../Heading/Heading';
+import fetechData from '../JsonData/Fetech.json'
 
 
 const Services = () => {
+    const [services,setServices]=useState([])
+    useEffect(()=>{
+        setServices(fetechData)
+    },[])
 return (
  <div>
-    <h1 className='text-[26px] font-semibold text-center text-black my-4 md:my-8'>My Service</h1>
+        <Heading heading='My Service'/>
     <div className="grid md:grid-cols-3  container mx-auto mr-4 ">
-        <Service img={product1} name='Red Berry' price='489'/>
-        <Service img={product2} name='Vegetable Edible Mushroom' price='399'/>
-        <Service img={product3} name='Vegetable Broccoli' price='541'/>
+        {
+            services.map((item)=>(
+                <Service  item={item} key={item.id}/>
+             ))
+        }
     </div>
 </div>
 
