@@ -83,9 +83,9 @@ const Header = () => {
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-               <NavLink to={'/home'} style={styleColor}>
+               <NavLink  to={'/home'} style={styleColor}>
                <a
-                  href="#"
+                 href="#"
                   className="block py-2 pl-3 pr-4 bg-purple-700  rounded lg:bg-transparent lg:p-0  font-mono font-semibold text-[17px]"
                   aria-current="page"
                 >
